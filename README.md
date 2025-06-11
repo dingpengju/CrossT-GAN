@@ -22,7 +22,7 @@ python main_crosstgan_domain.py \
     --adv_rate 0.001 \
     --gpu 0 \
     --latent_dim 128
-
+    
 --train_datasets: comma-separated source domain dataset names.
 --test_dataset: target domain dataset.
 --latent_dim: potential representation dimension.
