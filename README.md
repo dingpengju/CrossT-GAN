@@ -15,10 +15,8 @@ Before running the code, please make sure the datasets are organized as expected
 
 ## 🚀 Usage
 
-## Run Single-Domain Time Series Anomaly Detection
-
-
 ```bash
+## Run Single-Domain Time Series Anomaly Detection
 python main_crosstgan_anomaly.py \
     --data_prefix <dataset_name> \
     --strategy linear \
@@ -31,7 +29,7 @@ Arguments:
 --adv_rate: adversarial loss coefficient, e.g., 0.001.
 --gpu: GPU ID to use (default: 0).
 
-Run a Specific Cross-Domain Combination for Time Series Data Anomaly Detection
+## Run a Specific Cross-Domain Combination for Time Series Data Anomaly Detection
 
 python main_crosstgan_domain.py \
     --train_datasets <Multiple_dataset_names> \
