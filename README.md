@@ -15,7 +15,8 @@ Before running the code, please make sure the datasets are organized as expected
 
 ## 🚀 Usage
 
-### Run Single-Domain Time Series Anomaly Detection
+## Run Single-Domain Time Series Anomaly Detection
+
 
 ```bash
 python main_crosstgan_anomaly.py \
@@ -31,7 +32,7 @@ Arguments:
 --gpu: GPU ID to use (default: 0).
 
 
-### Run a specific cross-domain combination for time series data anomaly detection    
+## Run a Specific Cross-Domain Combination for Time Series Data Anomaly Detection
 python main_crosstgan_domain.py \
     --train_datasets <Multiple_dataset_names> \
     --test_dataset <dataset_name> \
