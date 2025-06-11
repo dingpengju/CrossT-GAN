@@ -2,7 +2,7 @@
 
 **CrossT-GAN: Large Language Model Empowered Dynamic Adversarial Cross-Domain Time Series Anomaly Detection**
 
-This repository provides the implementation of CrossT-GAN, a novel framework for cross-domain time series anomaly detection. CrossT-GAN dynamically integrates large language model (LLM) priors with adversarial learning to achieve robust generalization across domains with different data distributions.
+This repository provides the implementation of CrossT-GAN, a novel framework for cross-domain time series anomaly detection. CrossT-GAN dynamically integrates large language modeling (LLM) and adversarial learning for robust generalization across domains with different data distributions.
 
 ## 📁 Dataset
 
