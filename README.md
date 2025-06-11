@@ -25,4 +25,4 @@ python main_crosstgan_domain.py \
     
 --train_datasets: comma-separated names of source domain datasets, e.g. "SWaT, SMAP, SMD".\
 --test_dataset: target domain dataset, e.g. "MSL".\
---latent_dim: potential representation dimension, e.g. 128.\
+--latent_dim: potential representation dimension, e.g. 128.
