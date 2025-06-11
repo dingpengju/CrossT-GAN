@@ -31,7 +31,7 @@ Arguments:
 --adv_rate: adversarial loss coefficient, e.g., 0.001.
 --gpu: GPU ID to use (default: 0).
 
-## Run a Specific Cross-Domain Combination for Time Series Data Anomaly Detection
+Run a Specific Cross-Domain Combination for Time Series Data Anomaly Detection
 
 python main_crosstgan_domain.py \
     --train_datasets <Multiple_dataset_names> \
