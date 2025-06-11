@@ -144,12 +144,12 @@ def adapt_to_CrosstgaNomaly_format(train_dataset, train_loader, val_dataset, tes
 
 def main():
     parser = argparse.ArgumentParser(description='CrossTGAN-FGNomaly')
-    parser.add_argument('--data_prefix', type=str, default='ETTh1', help='数据集前缀')
-    parser.add_argument('--strategy', type=str, default='linear', help='加权策略')
-    parser.add_argument('--adv_rate', type=float, default=0.01, help='对抗率')
+    parser.add_argument('--data_prefix', type=str, default='ETTh1', help='dataset prefix')
+    parser.add_argument('--strategy', type=str, default='linear', help='weighting strategy')
+    parser.add_argument('--adv_rate', type=float, default=0.01, help='Adversarial rate')
     parser.add_argument('--gpu', type=int, default=0, help='GPU ID')
-    parser.add_argument('--window_size', type=int, default=96, help='时间窗口大小')
-    parser.add_argument('--batch_size', type=int, default=32, help='批次大小')
+    parser.add_argument('--window_size', type=int, default=96, help='Time window size')
+    parser.add_argument('--batch_size', type=int, default=32, help='batch size')
     args = parser.parse_args()
 
     args.device = torch.device(f'cuda:{args.gpu}' if torch.cuda.is_available() else 'cpu')
