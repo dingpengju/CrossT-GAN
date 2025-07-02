@@ -9,7 +9,7 @@ This repository provides the implementation of CrossT-GAN, a novel framework for
 - **SMAP**, **MSL**, and **SMD** datasets were obtained from the [OmniAnomaly repository](https://github.com/NetManAIOps/OmniAnomaly).
 - **SWaT** dataset was obtained from the [TranAD repository](https://github.com/imperial-qore/TranAD).
 
-Before running the code, please make sure the datasets are organized as expected under the corresponding directory (e.g., `./dataset/`).
+Before running the code, please make sure the datasets are organized as expected under the corresponding directory (e.g., `./dataset/`). For proprietary reasons, the dataset loader component is not included in the public release. The relevant code interfaces have been retained to maintain the integrity of the interfaces.
 
 ---
 
