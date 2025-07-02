@@ -58,7 +58,7 @@ def get_crosstgan_args(args):
    
     crosstgan_args.model_path = "path"
     crosstgan_args.mask_rate = 0.5
-    crosstgan_args.patch_len = 32
+    crosstgan_args.patch_len = 64
     crosstgan_args.max_token_num = 128
     crosstgan_args.max_backcast_len = args.window_size
     crosstgan_args.max_forecast_len = 0  
