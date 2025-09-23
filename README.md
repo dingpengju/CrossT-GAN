@@ -45,3 +45,7 @@ Arguments:
 --train_datasets: comma-separated names of source domain datasets, e.g., "SWaT, SMAP, SMD".
 --test_dataset: target domain dataset name, e.g., MSL.
 --latent_dim: latent space dimension for domain alignment, e.g., 128.
+
+## License
+
+This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
