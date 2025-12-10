@@ -1,8 +1,0 @@
-
-{
-    "MSL": "Derived from NASA Mars Science Laboratory's Curiosity rover, it records sensor and actuator data from the rover on the surface of Mars. The dataset contains 27 entities (e.g., powertrain, navigation module), 55 metrics per entity, and 58,317 and 73,729 observations for the training and test sets, respectively, with an anomaly ratio of 10.72%. Due to the diversity of tasks performed by the rover (e.g., rock sampling, mobile navigation), the data show a high degree of non-periodicity and environmental dependence. Related studies have pointed out that some of its anomalies (e.g., battery plunge, robotic arm jamming) need to be analyzed in conjunction with joint multi-sensor analysis, while simple thresholding methods are prone to miss detection. The dataset is used to validate the algorithm's ability to generalize under extreme environments (e.g., radiation interference, sandstorms), and only non-trivial sequences (A4, C2, T1) are retained to exclude easily identifiable noise.",
-    "PSM": "instruction.",
-    "SWaT": "instruction.",
-    "SMAP": "instruction."
-}
-
