@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import h5py
-import os
 from time import time
 from copy import deepcopy
 
